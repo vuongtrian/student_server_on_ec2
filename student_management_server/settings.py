@@ -54,7 +54,7 @@ MIDDLEWARE = [
     "django.middleware.common.CommonMiddleware",
 ]
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://0.0.0.0:8000', 'http://3.14.68.126:8000', 'http://student-management-web.s3-website.us-east-2.amazonaws.com']
+CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://18.118.187.254:8000', 'http://student-management-web.s3-website.us-east-2.amazonaws.com']
 
 # To allow credentials (like cookies)
 CORS_ALLOW_CREDENTIALS = True
