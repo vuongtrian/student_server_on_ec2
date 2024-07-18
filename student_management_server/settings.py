@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-=@u_)*xcs00f5u#2o#8ym%rkn^v%w@8#4c--w(1+rxxvu0e19=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['18.118.187.254', 'https://d1a352wvynkhni.cloudfront.net']
+ALLOWED_HOSTS = ['18.118.187.254',]
 
 
 # Application definition
@@ -54,7 +54,8 @@ MIDDLEWARE = [
     "django.middleware.common.CommonMiddleware",
 ]
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://18.118.187.254:8000', 'http://student-management-web.s3-website.us-east-2.amazonaws.com', 'https://d1a352wvynkhni.cloudfront.net']
+CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://18.118.187.254:8000', 'http://student-management-web.s3-website.us-east-2.amazonaws.com', 'https://d1a352wvynkhni.cloudfront.net',]
+CORS_ALLOW_ALL_ORIGINS = True
 
 # To allow credentials (like cookies)
 CORS_ALLOW_CREDENTIALS = True
